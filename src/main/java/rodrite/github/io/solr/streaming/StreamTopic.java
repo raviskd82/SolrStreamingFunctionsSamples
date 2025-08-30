@@ -47,7 +47,7 @@ public class StreamTopic
 		 
 		workWithTuples(daemonStream); //here we work with the Tuples
 		
-		daemonStream.close();
+		//daemonStream.close();
     }
 
 	private static void workWithTuples(DaemonStream daemonStream) {
